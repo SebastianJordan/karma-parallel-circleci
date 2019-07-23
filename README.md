@@ -1,2 +1,5 @@
 # karma-parallel-circleci
-Test to integrate karma with circle ci parallel
+
+
+> Karma plugin to allow tests to be distributed across multiple browsers in different circle ci containers
+

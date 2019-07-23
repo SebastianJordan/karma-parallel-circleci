@@ -1,0 +1,65 @@
+{
+  "name": "karma-parallel-circleci",
+  "version": "0.0.1",
+  "description": "Karma plugin to allow tests to be distributed across multiple browsers and containers",
+  "engines": {
+    "node": ">=10"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "scripts": {
+    "karma": "./node_modules/.bin/karma start",
+    "test": "npm run clean && npm run karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianJordan/karma-parallel-circleci.git"
+  },
+  "keywords": [
+    "karma",
+    "karma-coverage",
+    "karma-sharding",
+    "karma-plugin",
+    "karma-parallel",
+    "karma-parallel-circleci"
+  ],
+  "contributors": [
+    {
+      "name": "Sebastian Jordan",
+      "email": "me@sebastianjordan.info",
+      "url": "https://github.com/SebastianJordan/"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Sebastian Jordan",
+      "email": "me@sebastianjordan.info",
+      "url": "https://github.com/SebastianJordan/"
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianJordan/karma-parallel-circleci/issues"
+  },
+  "homepage": "https://github.com/SebastianJordan/karma-parallel-circleci/blob/master/README.md",
+  "optionalDependencies": {
+    "karma-coverage": "1.1.1"
+  },
+  "dependencies": {
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "4.16.0",
+    "eslint-plugin-security": "1.4.0",
+    "jasmine-core": "2.9.1",
+    "karma": "4.2.0",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "1.1.0"
+  }
+}
