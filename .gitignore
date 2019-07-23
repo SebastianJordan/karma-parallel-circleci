@@ -4,3 +4,4 @@ Template/
 test/
 lib/
 coverage/
+package-lock.json

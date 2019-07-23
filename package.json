@@ -52,7 +52,7 @@
     "karma-coverage": "1.1.1"
   },
   "dependencies": {
-    "lodash": "4.17.4"
+    "lodash": "4.17.15"
   },
   "devDependencies": {
     "eslint": "4.16.0",
