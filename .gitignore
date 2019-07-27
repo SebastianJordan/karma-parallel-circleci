@@ -5,3 +5,4 @@ test/
 lib/
 coverage/
 package-lock.json
+.DS_Store
