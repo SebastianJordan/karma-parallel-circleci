@@ -1,8 +1,7 @@
 # Dependency directories
 node_modules/
 Template/
-test/
-lib/
 coverage/
 package-lock.json
 .DS_Store
+log-file.txt

@@ -6,4 +6,8 @@ jobs:
     steps:
       - checkout
       - run:
-         command: npm run test
+         name: Intalando dependencia
+         command: npm install
+      - run:
+         name: Pruebas
+         command: npm run karma
